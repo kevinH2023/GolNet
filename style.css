@@ -1,0 +1,356 @@
+* {
+	margin: 0px;
+	font-family: arial;
+}
+
+body {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background: #FFFFFF;
+}
+
+.mainOptions {
+	position: absolute;
+	width: 100vw;
+	height: 100px;
+	background: #344E41;
+}
+
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	font-family: impact;
+	font-style: italic;
+	font-size: 50px;
+	text-decoration: underline;
+	text-decoration-thickness: 5px;
+	color: #FFFFFF;
+}
+
+.version {
+	position: absolute;
+	top: 30px;
+	left: 230px;
+	font-style: oblique;
+	font-size: 10px;
+	background: #FFFFFF;
+	border-radius: 3px;
+	border: 2px solid #A3B18A;
+}
+
+.competition {
+	position: absolute;
+	top: 160px;
+	left: 400px;
+	width: 600px;
+	height: 100px;
+	background: #FFFFFF;
+}
+
+.logoCompetition {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 60px;
+	height: 60px;
+	background: #FFFFFF;
+}
+
+.nameCompetition {
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	font-family: arial;
+	font-size: 50px;
+	font-weight: bold;
+	color: #3A5A40;
+	background: #FFFFFF;
+}
+
+.results {
+	position: absolute;
+	top: 350px;
+	left: 100px;
+	width: 500px;
+	height: 360px;
+	background: #FFFFFF;	
+}
+
+.match {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 460px;
+	height: 50px;
+	margin: 20px;
+	background: #FFFFFF;
+	border-radius: 10px;
+	border: 3px solid #588157;
+}
+
+#match2 {
+	top: 90px;
+}
+
+#match3 {
+	top: 180px;
+}
+
+#match4 {
+	top: 270px;
+}
+
+#match5 {
+	top: 360px;
+}
+
+#match6 {
+	top: 450px;
+}
+
+#match7 {
+	top: 540px;
+}
+
+#match8 {
+	top: 630px;
+}
+
+#match9 {
+	top: 720px;
+}
+
+#match10 {
+	top: 810px;
+}
+
+.logoTeam {
+	position: absolute;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+	background: #FFFFFF;
+}
+
+#logoHome {
+	left: 10px;
+}
+
+#logoAway {
+	right: 10px;
+}
+
+.teamName {
+	position: absolute;
+	top: 16px;
+	background: #FFFFFF;
+}
+
+#nameHome {
+	left: 80px;
+}
+
+#nameAway {
+	right: 80px;
+}
+
+.matchResult {
+	position: absolute;
+	top: 16px;
+	left: 220px;
+	background: #FFFFFF;
+	color: #588157;
+	font-size: 20px;
+}
+
+.positions {
+	position: absolute;
+	top: 350px;
+	right: 100px;
+	width: 500px;
+	height: 800px;
+	background: #FFFFFF;
+	border-radius: 10px;
+	border: 3px solid #588157;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.statistics {
+	position: absolute;
+	width: 480px;
+	height: 50px;
+	margin: 10px;
+	background: #FFFFFF;
+}
+
+.position {
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	font-weight: bold;
+	background: #FFFFFF;
+	color: #588157;
+}
+
+.team {
+	position: absolute;
+	top: 15px;
+	left: 100px;
+	font-weight: bold;
+	background: #FFFFFF;
+	color: #588157;
+}
+
+.matchCount {
+	position: absolute;
+	top: 15px;
+	left: 250px;
+	font-weight: bold;
+	background: #FFFFFF;
+	color: #588157;
+}
+
+.points {
+	position: absolute;
+	top: 15px;
+	left: 350px;
+	font-weight: bold;
+	background: #FFFFFF;
+	color: #588157;
+}
+
+.teamStatistics {
+	position: absolute;
+	width: 480px;
+	height: 50px;
+	margin: 10px;
+	background: #FFFFFF;
+}
+
+.teamPosition {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background-size: violet;
+}
+
+.logoTeamStats {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	width: 30px;
+	height: 30px;
+	background: #FFFFFF;
+}
+
+.teamNameStats {
+	position: absolute;
+	top: 16px;
+	left: 100px;
+	background: #FFFFFF;
+}
+
+.teamMatchCount {
+	position: absolute;
+	top: 15px;
+	left: 250px;
+	background: #FFFFFF;
+}
+
+.teamPoints {
+	position: absolute;
+	top: 15px;
+	left: 350px;
+	background: #FFFFFF;
+}
+
+#team1 {
+	top: 70px;
+}
+
+#team2 {
+	top: 140px;
+}
+
+#team3 {
+	top: 210px;
+}
+
+#team4 {
+	top: 280px;
+}
+
+#team5 {
+	top: 350px;
+}
+
+#team6 {
+	top: 420px;
+}
+
+#team7 {
+	top: 490px;
+}
+
+#team8 {
+	top: 560px;
+}
+
+#team9 {
+	top: 630px;
+}
+
+#team10 {
+	top: 700px;
+}
+
+#team11 {
+	top: 770px;
+}
+
+#team12 {
+	top: 840px;
+}
+
+#team13 {
+	top: 910px;
+}
+
+#team14 {
+	top: 980px;
+}
+
+#team15 {
+	top: 1050px;
+}
+
+#team16 {
+	top: 1120px;
+}
+
+#team17 {
+	top: 1190px;
+}
+
+#team18 {
+	top: 1260px;
+}
+
+#team19 {
+	top: 1330px;
+}
+
+#team20 {
+	top: 1400px;
+}
+
+footer {
+	position: absolute;
+	width: 100vw;
+	height: 50px;
+	top: 1300px;
+	background: #344E41;
+}
